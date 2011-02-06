@@ -1,0 +1,8 @@
+* Right now the data mapper allows a different account key to be passed based on either the username or the IP
+* This may need to be a different parameter such as an account code to allow more flexibility but this would make the
+submitter and the NFO collector service more complex
+
+* At the moment resubmissions won't work in multi mode
+
+* We need to enable SSL
+* Once the NFO Collector API can receive pre-parsed data we will need to change the Chunk::dump method to handle LogLine objects not just strings

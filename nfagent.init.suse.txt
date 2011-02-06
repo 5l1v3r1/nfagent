@@ -1,0 +1,58 @@
+#!/bin/bash
+#
+# Author: Daniel Draper, 2010
+
+### BEGIN INIT INFO
+# Provides:          nfagent
+# Required-Start:    $network
+# Required-Stop:
+# Default-Start:     3 5
+# Default-Stop:      0 1 2 6
+# Short-Description: NetFox Agent
+# Description:       See http://www.netfox.com for details
+### END INIT INFO
+
+NFAGENT_OPTS="-f /etc/nfagent.conf -d"
+NFAGENT_PID=/var/run/nfagent.pid
+
+. /etc/rc.status
+rc_reset
+
+start () {
+  echo -n "Starting NetFox Agent: "
+  startproc -p $NFAGENT_PID /usr/bin/nfagent $NFAGENT_OPTS
+  rc_status -v
+}
+
+stop() {
+  echo -n $"Shutting down NetFox Agent: "
+  killproc -TERM /usr/bin/nfagent
+  rc_status -v
+}
+
+# See how we were called.
+case "$1" in
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
+  restart)
+    stop
+    sleep 2
+    start
+    RETVAL=$?
+    ;;
+  status)
+    checkproc nfagent
+    rc_status -v
+    RETVAL=$?
+    ;;
+  *)
+    echo $"Usage: $0 {start|stop|restart|status}"
+    exit 1
+esac
+
+exit $RETVAL
+

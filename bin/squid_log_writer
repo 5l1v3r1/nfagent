@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+
+require 'socket'
+
+class Client
+  def initialize(host, port)
+    @host = host
+    @port = port
+  end
+
+  def write_safely(data)
+    connect_socket unless @connected
+    begin
+      @client.puts(data)
+    rescue
+      @connected = false
+    end
+  end
+
+  def close
+    @client.close if @client && @connected
+  end
+
+  private
+    def connect_socket
+      begin
+        @client = TCPSocket.new(@host, @port)
+        @connected = true
+      rescue
+        @connected = false
+      end
+    end
+end
+
+client = Client.new("127.0.0.1", "10000")
+
+while !$stdin.eof?
+  line = $stdin.readline
+  entries = line.split("\n")
+  # Assume that no meaningful line will be less than this
+  entries.each do |e|
+    if e.length > 10
+      client.write_safely(e)
+    end
+  end
+  $stdout.flush
+end
+client.close

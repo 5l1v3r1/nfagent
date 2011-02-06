@@ -1,0 +1,5 @@
+client_key = 1234
+dump_dir = test/sandbox/dumps
+log_file = test/sandbox/debug
+pid_file = test/sandbox/nfagent.pid
+plugin_directory = test/plugins/
