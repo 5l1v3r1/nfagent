@@ -4,7 +4,7 @@
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Logging Agent for NetFox Online
 
 == FEATURES/PROBLEMS:
 
