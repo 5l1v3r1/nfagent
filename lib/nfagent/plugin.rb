@@ -2,7 +2,7 @@ module NFAgent
   class Plugin
     class << self
       def load_plugins
-        unless Config.plugin_directory.blank?
+        if Config.plugin_directory && !Config.plugin_directory.empty? && File.exists?(Config.plugin_directory)
           Dir.glob(File.join(Config.plugin_directory, "*.rb")).each do |file|
             load(file)
           end
