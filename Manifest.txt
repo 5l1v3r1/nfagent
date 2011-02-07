@@ -16,7 +16,7 @@ test/test_nfagent.rb
 test/test_payload.rb
 test/test_plugin.rb
 test/config
-test/sandbox/dumps
+sandbox/dumps
 test/plugins/my_mapper.rb
 lib/nfagent.rb
 lib/nfagent
