@@ -4,7 +4,7 @@ require 'test/test_helper'
 class TestChunkHandler < ActiveSupport::TestCase
   setup do
     NFAgent::Config.config_file = "test/config"
-    NFAgent::Config.load_and_parse
+    NFAgent::Config.init
     NFAgent::Config.plugin_directory = File.dirname(__FILE__) + '/../test/plugins/' 
     NFAgent::Plugin.load_plugins
     @logline = "1253604221  19 127.0.0.1 TCP_MISS/200 562 GET http://www.gravatar.com/blavatar/e81cfb9068d04d1cfd598533bb380e1f?s=16&d=http://s.wordpress.com/favicon.ico dan NONE/- text/html"
@@ -30,7 +30,6 @@ class TestChunkHandler < ActiveSupport::TestCase
     NFAgent::Config.parse = 'locally'
     NFAgent::Config.mode = 'multi'
     NFAgent::Config.mapper = 'MyMapper'
-    NFAgent::Config.validate
     chunk_handler = NFAgent::ChunkHandler.new
     chunk_handler.append(@logline)
     assert chunk_handler.chunk_group.has_key?('acme')
@@ -46,7 +45,6 @@ class TestChunkHandler < ActiveSupport::TestCase
     NFAgent::Config.parse = 'locally'
     NFAgent::Config.mode = 'multi'
     NFAgent::Config.mapper = 'MyMapper'
-    NFAgent::Config.validate
     NFAgent::Submitter.any_instance.expects(:perform).times(2)
     chunk_handler = NFAgent::ChunkHandler.new
     chunk_handler.append(@logline)
@@ -73,7 +71,6 @@ class TestChunkHandler < ActiveSupport::TestCase
     NFAgent::Config.parse = 'locally'
     NFAgent::Config.mode = 'multi'
     NFAgent::Config.mapper = 'MyMapper'
-    NFAgent::Config.validate
     NFAgent::Submitter.any_instance.expects(:perform).times(2)
     chunk_handler = NFAgent::ChunkHandler.new(:chunk_size => 10)
     9.times { chunk_handler.append(@logline) }

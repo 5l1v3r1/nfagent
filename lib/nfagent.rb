@@ -14,6 +14,7 @@ require 'eventmachine'
 require 'em/timers'
 require 'rbconfig'
 
+require 'nfagent/object_extra'
 require 'nfagent/chunk'
 require 'nfagent/client'
 require 'nfagent/client_response'
@@ -34,5 +35,5 @@ require 'nfagent/cli'
 require 'nfagent/tests'
 
 module NFAgent
-  VERSION = '0.9.23'
+  VERSION = '0.9.26'
 end

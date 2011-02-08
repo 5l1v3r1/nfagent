@@ -4,7 +4,7 @@ require 'test/test_helper'
 class TestChunk < ActiveSupport::TestCase
   setup do
     NFAgent::Config.config_file = "test/config"
-    NFAgent::Config.load_and_parse
+    NFAgent::Config.init
     @logline = "1253604221  19 127.0.0.1 TCP_MISS/200 562 GET http://www.gravatar.com/blavatar/e81cfb9068d04d1cfd598533bb380e1f?s=16&d=http://s.wordpress.com/favicon.ico - NONE/- text/html"
   end
 
@@ -28,7 +28,6 @@ class TestChunk < ActiveSupport::TestCase
 
   test "won't expire if empty" do
     NFAgent::Config.chunk_time_out = 1
-    NFAgent::Config.validate
     chunk = NFAgent::Chunk.new
     assert !chunk.expired?
     Timecop.freeze(Time.now + 61) do

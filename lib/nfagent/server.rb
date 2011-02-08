@@ -4,6 +4,9 @@ module NFAgent
       Log.info("Starting up")
       NFAgent::Plugin.load_plugins
 
+      Log.info("Parsing #{Config.parse}")
+      Log.info("Mode set to #{Config.mode}")
+
       chunk_handler = ChunkHandler.new
       poller = Poller.new
 

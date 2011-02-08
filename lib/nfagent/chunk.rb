@@ -29,7 +29,7 @@ module NFAgent
     end
 
     def expired?
-      (Time.now - @created_at > Config.chunk_time_out) && !self.empty?
+      (Time.now - @created_at > Config.chunk_timeout) && !self.empty?
     end
 
     def dump(key = nil)

@@ -4,7 +4,7 @@ module NFAgent
     include SVUtil
 
     def initialize
-      Config.load_and_parse
+      Config.init
       if Config.test_mode?
         Tests.run
         exit 1

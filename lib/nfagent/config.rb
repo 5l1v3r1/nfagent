@@ -16,15 +16,15 @@ module NFAgent
     # mapping: Class, this is a plugin class which must be stored in a file in the directory /etc/nfagent/plugins/
     # parse: (optional, default: 'remotely'): String, either 'remotely' or 'locally'
     #
-    class << self
-      def set_defaults
-        default('mode', 'normal')
-        default('parse', 'remotely')
-        default('chunk_time_out', 60)
-        default('time_zone', 'UTC')
-        default('plugin_directory', '/etc/nfagent/plugins/')
-      end
+    defaults do |c|
+      c.mode = 'normal'
+      c.parse = 'remotely'
+      c.chunk_timeout = 60
+      c.time_zone = 'UTC'
+      c.plugin_directory = '/etc/nfagent/plugins/'
+    end
 
+    class << self
       def validate
         unless dump_dir and File.exists?(dump_dir) and File.directory?(dump_dir)
           raise "Dump dir (#{dump_dir}) must exist and be a directory"
