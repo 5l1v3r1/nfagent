@@ -58,9 +58,8 @@ module NFAgent
 
     private
       def reset_chunk(key = nil)
-        key ||= 'all'
-        chunk = @chunk_group.delete(key)
-        chunk.submit
+        chunk = @chunk_group.delete(key || 'all')
+        chunk.submit(key == 'all' ? nil : key)
       end
   end
 end

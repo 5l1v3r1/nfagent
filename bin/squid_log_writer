@@ -13,6 +13,7 @@ class Client
     connect_socket unless @connected
     begin
       @client.puts(data)
+      sleep 0.01
     rescue
       @connected = false
     end

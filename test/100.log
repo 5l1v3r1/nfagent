@@ -1,100 +1,100 @@
-10.1.51.86 TCP_DENIED NONE 407 2282 - text/html - - - 1227860329 82.52.89.47:443
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860329 http://www.google.com.au
-10.1.51.86 TCP_DENIED NONE 407 2282 - text/html - - - 1227860330 82.82.58.22:443
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860330 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860331 http://www.google.com.au
-10.1.51.86 TCP_DENIED NONE 407 2282 - text/html - - - 1227860331 84.2.16.195:443
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3131 ttipungwuti application/x-javascript - - content_filter 1227860331 http://www.facebook.com/ajax/friend_guess.php
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3500 ttipungwuti image/jpeg - - content_filter 1227860331 http://profile.ak.facebook.com/v224/1415/104/q568889593_9548.jpg
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860331 http://www.google.com.au
-10.1.51.86 TCP_DENIED NONE 407 2285 - text/html - - - 1227860332 81.165.197.246:443
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860332 http://www.google.com.au
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3138 ttipungwuti application/x-javascript - - content_filter 1227860332 http://www.facebook.com/ajax/friend_guess.php
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3438 ttipungwuti image/jpeg - - content_filter 1227860332 http://profile.ak.facebook.com/v222/1795/42/q526963781_6780.jpg
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860333 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860333 http://www.google.com.au
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 51063 rbergmann text/html - - content_filter 1227860334 http://www.facebook.com/profile.php?v=feed&id=556173860
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3143 ttipungwuti application/x-javascript - - content_filter 1227860334 http://www.facebook.com/ajax/friend_guess.php
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3258 ttipungwuti image/jpeg - - content_filter 1227860334 http://profile.ak.facebook.com/v222/1871/124/q1077422831_2135.jpg
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860334 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860335 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860335 http://www.google.com.au
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3136 ttipungwuti application/x-javascript - - content_filter 1227860336 http://www.facebook.com/ajax/friend_guess.php
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3062 ttipungwuti image/jpeg - - content_filter 1227860336 http://profile.ak.facebook.com/v225/517/57/q772378024_7359.jpg
-10.1.51.86 TCP_DENIED NONE 407 2285 - text/html - - - 1227860336 209.206.155.95:443
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6310 - text/html - - content_filter 1227860336 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860337 http://www.google.com.au
-10.1.51.86 TCP_DENIED NONE 407 2285 - text/html - - - 1227860337 129.81.101.247:443
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 1101 rbergmann image/png - - content_filter 1227860337 http://www.facebook.com/ajax/f.php?meta=4%3A9%3A100%3A0%3A1%3A%3A%3A%3A%3A556173860%3A1%3A%3A%3A%3A0%3A943555%3A%3A0%3A%3A&h=1227867533%3A901e5b5a03472da1cf48d4a5126143ec&type=clk&undo=0&cat=mf&asyncSignal=true&post_form_id=78f2a52314ba71418ef9614f1615a6a6
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860337 http://www.google.com.au
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 1118 rbergmann text/html - - content_filter 1227860338 http://www.facebook.com/wall.php?id=556173860&banter_id=615475106
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860338 http://www.google.com.au
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3131 ttipungwuti application/x-javascript - - content_filter 1227860338 http://www.facebook.com/ajax/friend_guess.php
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3347 ttipungwuti image/jpeg - - content_filter 1227860338 http://profile.ak.facebook.com/v227/1161/6/q532086156_6652.jpg
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860339 http://www.google.com.au
-10.1.51.86 TCP_DENIED NONE 407 2284 - text/html - - - 1227860339 86.18.250.200:443
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 15099 rbergmann text/html - - content_filter 1227860339 http://www.facebook.com/wall.php?id=556173860&banter_id=615475106&show_all
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6308 - text/html - - content_filter 1227860339 http://www.google.com.au
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 875 rbergmann text/html - - content_filter 1227860339 http://ads.ak.facebook.com/ads/creative/msn/au-120other.html
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 1620 rbergmann text/html - - content_filter 1227860340 http://rad.msn.com/ADSAdClient31.dll?GetSAd=&DPJS=0&PG=FAU600&AP=1113
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 666 rbergmann image/gif - - content_filter 1227860340 http://ads.ak.facebook.com/ads/creative/1x1/msn/au-120other.gif
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860340 http://www.google.com.au
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 2983 ttipungwuti application/x-javascript - - content_filter 1227860340 http://www.facebook.com/ajax/friend_guess.php
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 5201 rbergmann text/html - - content_filter 1227860340 http://view.atdmt.com/2D1/iview/113532831/direct;wi.160;hi.600/01?click=
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 5699 ttipungwuti application/x-javascript - - content_filter 1227860340 http://www.facebook.com/ajax/addfriend.php
-10.1.11.71 TCP_MISS DEFAULT_PARENT - - ttipungwuti - - - content_filter 1227860340 http://profile.ak.facebook.com/v225/517/57/s772378024_7359.jpg
-10.1.11.71 TCP_MISS DEFAULT_PARENT - - ttipungwuti - - - content_filter 1227860340 http://profile.ak.facebook.com/v225/517/57/s772378024_7359.jpg
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 4233 ttipungwuti image/jpeg - - content_filter 1227860340 http://profile.ak.facebook.com/v225/517/57/s772378024_7359.jpg
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 3037 ttipungwuti image/jpeg - - content_filter 1227860340 http://profile.ak.facebook.com/profile6/1846/60/q907355450_2820.jpg
-10.1.51.196 TCP_MISS DEFAULT_PARENT 302 1616 rbergmann text/html - - content_filter 1227860340 http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=19&mc=imp&pli=644401&pi=0&ord=239498259&rtu=-1
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 8387 rbergmann application/x-shockwave-flash - - content_filter 1227860340 http://spe.atdmt.com/ds/2D2D12D13COM/CBA_CC_Wipe_CPA_160x600_At.swf?ver=1&clickTag1=http://clk.atdmt.com/go/113532831/direct;wi.160;hi.600;ai.57139350.57192798;ct.1/01&clickTag=http://clk.atdmt.com/go/113532831/direct;wi.160;hi.600;ai.57139350.57192798;ct.1/01
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860341 http://www.google.com.au
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 675 rbergmann image/gif - - content_filter 1227860341 http://ds.serving-sys.com/BurstingCachedScripts/Res/Blank_1x1.gif
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860341 http://www.google.com.au
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 1431 ttipungwuti application/x-javascript - - content_filter 1227860342 http://www.facebook.com/ajax/addfriend.php
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860342 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860343 http://www.google.com.au
-10.1.51.86 TCP_DENIED NONE 407 2281 - text/html - - - 1227860343 87.4.120.7:443
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860343 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860344 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860345 http://www.google.com.au
-10.1.51.86 TCP_DENIED NONE 407 2286 - text/html - - - 1227860345 131.156.182.152:443
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860345 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860346 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860347 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860347 http://www.google.com.au
-10.1.11.107 TCP_MISS DEFAULT_PARENT 200 1093 bdean text/html - - content_filter 1227860348 http://b.mail.google.com/mail/channel/bind?at=xn3j2y5hnhwg2co1l120up1akegviy&ui=1&RID=rpc&SID=A17C05D8BEECCA0A&CI=1&AID=29&TYPE=html&zx=fvn0su-iuk1di&DOMAIN=mail.google.com&t=1
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860348 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860348 http://www.google.com.au
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 1216 ttipungwuti image/gif - - content_filter 1227860349 http://static.ak.fbcdn.net/images/menubar/fb_menubar_inbox_unread_count_ltr.gif
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860349 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860350 http://www.google.com.au
-10.1.11.71 TCP_MISS DEFAULT_PARENT 200 1159 ttipungwuti text/html - - content_filter 1227860350 http://static.ak.facebook.com/common/history_manager.html?|index=4
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860350 http://www.google.com.au
-10.1.11.145 TCP_MISS DEFAULT_PARENT 200 536 mvolker text/html - - content_filter 1227860351 http://0.channel23.facebook.com/x/1214673137/false/p_564478073=1&
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6308 - text/html - - content_filter 1227860351 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860352 http://www.google.com.au
-10.1.11.71 TCP_DENIED DEFAULT_PARENT 403 5107 ttipungwuti text/html - - content_filter 1227860352 http://www.facebook.com/profile.php?id=595692950&ref=name&quickling[version]=133696%3B0&quickling[referer]=%2Fhome.php%3Ftab%3D4
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6308 - text/html - - content_filter 1227860352 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860353 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860354 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860354 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6310 - text/html - - content_filter 1227860355 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6308 - text/html - - content_filter 1227860356 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860356 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860357 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860358 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860358 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860359 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860360 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860360 http://www.google.com.au
-10.1.51.196 TCP_MISS DEFAULT_PARENT 200 536 rbergmann text/html - - content_filter 1227860360 http://0.channel12.facebook.com/x/2670812219/true/p_556173860=0&
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6308 - text/html - - content_filter 1227860361 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860361 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860363 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860363 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6308 - text/html - - content_filter 1227860364 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860365 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860365 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6312 - text/html - - content_filter 1227860366 http://www.google.com.au
-127.0.0.1 TCP_MISS DEFAULT_PARENT 200 6308 - text/html - - content_filter 1227860367 http://www.google.com.au
+1296927132    456 10.210.102.136 TCP_MISS/200 1747 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.179363848 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927193  60975 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.975193339 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927253  60472 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1657295049 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927314  60601 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1792839573 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927376  61713 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1842082606 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927436  60472 10.210.102.136 TCP_MISS/200 584 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1073143607 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927497  60603 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.905293981 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927557  60499 10.210.102.136 TCP_MISS/200 583 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1051474969 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927618  60495 10.210.102.136 TCP_MISS/200 584 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.41053993 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927678  60540 10.210.102.136 TCP_MISS/200 584 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.775302400 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927723    698 127.0.0.1 TCP_REFRESH_HIT/200 1566 GET http://update.netfox.com/netfox/3.10/i386/base/repodata/repomd.xml - DEFAULT_PARENT/content_filter application/xml
+1296927724     50 127.0.0.1 TCP_REFRESH_HIT/200 1567 GET http://update.netfox.com/netfox/3.10/i386/updates/repodata/repomd.xml - DEFAULT_PARENT/content_filter application/xml
+1296927724     50 127.0.0.1 TCP_REFRESH_HIT/200 1567 GET http://update.netfox.com/netfox/3.10/i386/netfox/repodata/repomd.xml - DEFAULT_PARENT/content_filter application/xml
+1296927740  61980 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.549931520 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927801  60993 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1348611200 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927862  60549 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1107628954 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927879   1778 127.0.0.1 TCP_MISS/200 788 HEAD http://www.isc.org/ - DEFAULT_PARENT/content_filter text/html
+1296927880   1291 127.0.0.1 TCP_MISS/200 788 HEAD http://www.isc.org/ - DEFAULT_PARENT/content_filter text/html
+1296927923  60591 10.210.102.136 TCP_MISS/200 584 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1102969992 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296927983  60467 10.210.102.136 TCP_MISS/200 585 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.364117442 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928044  60468 10.210.102.136 TCP_MISS/200 584 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.1911215500 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928044      3 10.210.102.136 TCP_DENIED/403 5060 POST http://by2msg4020415.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=270244348.209768119 ggcsad%5Csswilliams NONE/- text/html
+1296928056     60 10.210.102.136 TCP_DENIED/407 2297 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296928056      2 10.210.102.136 TCP_DENIED/407 2397 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296928056    669 10.210.102.136 TCP_MISS/200 1151 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928057    919 10.210.102.136 TCP_MISS/200 1029 GET http://by2msg3020508.by2.gateway.edge.messenger.live.com/xmlProxy.htm?vn=9.090515.0&domain=live.com ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928058    649 10.210.102.136 TCP_MISS/200 1165 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?SessionID=1428523543.1576816008 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928059    980 10.210.102.136 TCP_MISS/200 1318 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?SessionID=1428523543.2104839475 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928060    448 10.210.102.136 TCP_MISS/200 1527 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.794560917 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928121  60976 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.745855224 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928181  60546 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1468469904 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928242  61093 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.378360504 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928303  60595 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.515975801 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928364  60598 10.210.102.136 TCP_MISS/200 581 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1876073648 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928424  60475 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.19398158 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928485  60598 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1156060504 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928546  61063 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.583073232 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928607  60983 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.652232956 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928668  60719 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1531339076 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928728  60460 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.430160112 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928789  60472 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1205210800 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928849  60524 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1607919662 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928910  60567 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.277056479 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928970  60585 10.210.102.136 TCP_MISS/200 583 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1227397593 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296928971      4 10.210.102.136 TCP_DENIED/403 5062 POST http://by2msg3020508.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=1428523543.1768636248 ggcsad%5Csswilliams NONE/- text/html
+1296929010     60 10.210.102.136 TCP_DENIED/407 2297 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296929010      2 10.210.102.136 TCP_DENIED/407 2397 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296929011    856 10.210.102.136 TCP_MISS/200 1152 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929011    824 10.210.102.136 TCP_MISS/200 1029 GET http://baymsg1020221.by2.gateway.edge.messenger.live.com/xmlProxy.htm?vn=9.090515.0&domain=live.com ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929012    650 10.210.102.136 TCP_MISS/200 1164 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?SessionID=2056275538.1958549893 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929013    914 10.210.102.136 TCP_MISS/200 850 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?SessionID=2056275538.150301627 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929014    451 10.210.102.136 TCP_MISS/200 1760 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.1652782297 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929074  60635 10.210.102.136 TCP_MISS/200 582 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.779472715 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929135  60471 10.210.102.136 TCP_MISS/200 582 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.217904844 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929195  60473 10.210.102.136 TCP_MISS/200 582 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.633385900 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929256  60472 10.210.102.136 TCP_MISS/200 583 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.659446019 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929316  60478 10.210.102.136 TCP_MISS/200 582 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.1195807592 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929377  60473 10.210.102.136 TCP_MISS/200 583 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.389269771 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929437  60455 10.210.102.136 TCP_MISS/200 583 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.1625816961 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929498  60472 10.210.102.136 TCP_MISS/200 583 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.1988213824 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929560  62071 10.210.102.136 TCP_MISS/200 582 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.1209666706 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929622  62488 10.210.102.136 TCP_MISS/200 583 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.682722400 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929683  60474 10.210.102.136 TCP_MISS/200 583 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.1162505102 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929743  60485 10.210.102.136 TCP_MISS/200 582 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.1292924967 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929804  60457 10.210.102.136 TCP_MISS/200 583 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.146667179 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929865  60642 10.210.102.136 TCP_MISS/200 582 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.2050242242 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929865      2 10.210.102.136 TCP_DENIED/403 5061 POST http://baymsg1020221.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=2056275538.559870769 ggcsad%5Csswilliams NONE/- text/html
+1296929904     91 10.210.102.136 TCP_DENIED/407 2297 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296929904      1 10.210.102.136 TCP_DENIED/407 2397 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296929905    829 10.210.102.136 TCP_MISS/200 1149 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929906    934 10.210.102.136 TCP_MISS/200 1029 GET http://by2msg3020517.by2.gateway.edge.messenger.live.com/xmlProxy.htm?vn=9.090515.0&domain=live.com ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929906    721 10.210.102.136 TCP_MISS/200 1164 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?SessionID=956916073.1288751018 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929907    982 10.210.102.136 TCP_MISS/200 868 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?SessionID=956916073.1930971500 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929908    498 10.210.102.136 TCP_MISS/200 1745 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.171212306 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296929969  60667 10.210.102.136 TCP_MISS/200 581 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.624576781 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930030  61096 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.714565246 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930091  61035 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.1034436005 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930152  61165 10.210.102.136 TCP_MISS/200 581 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.1163798745 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930213  61235 10.210.102.136 TCP_MISS/200 580 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.398488879 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930274  60945 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.79811800 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930336  61086 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.2140790192 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930397  61074 10.210.102.136 TCP_MISS/200 581 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.1584169307 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930458  60997 10.210.102.136 TCP_MISS/200 581 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.101415031 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930519  60987 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.580377921 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930580  61073 10.210.102.136 TCP_MISS/200 581 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.1950658451 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930612   1191 127.0.0.1 TCP_CLIENT_REFRESH_MISS/200 690 HEAD http://gplv3.fsf.org/ - DEFAULT_PARENT/content_filter text/html
+1296930614    329 127.0.0.1 TCP_CLIENT_REFRESH_MISS/200 690 HEAD http://gplv3.fsf.org/ - DEFAULT_PARENT/content_filter text/html
+1296930641  60969 10.210.102.136 TCP_MISS/200 581 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.708150517 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930662    418 127.0.0.1 TCP_MISS/410 407 HEAD http://www.ntp.org/ - DEFAULT_PARENT/content_filter text/html
+1296930663    210 127.0.0.1 TCP_MISS/410 407 HEAD http://www.ntp.org/ - DEFAULT_PARENT/content_filter text/html
+1296930671   7680 127.0.0.1 TCP_MISS/200 788 HEAD http://www.isc.org/ - DEFAULT_PARENT/content_filter text/html
+1296930677   5724 127.0.0.1 TCP_MISS/200 788 HEAD http://www.isc.org/ - DEFAULT_PARENT/content_filter text/html
+1296930678    635 127.0.0.1 TCP_CLIENT_REFRESH_MISS/200 690 HEAD http://gplv3.fsf.org/ - DEFAULT_PARENT/content_filter text/html
+1296930702  60967 10.210.102.136 TCP_MISS/200 582 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.127737935 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930702      3 10.210.102.136 TCP_DENIED/403 5061 POST http://by2msg3020517.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Action=poll&Lifespan=60&SessionID=956916073.1817436853 ggcsad%5Csswilliams NONE/- text/html
+1296930722     60 10.210.102.136 TCP_DENIED/407 2297 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296930722      2 10.210.102.136 TCP_DENIED/407 2397 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none - NONE/- text/html
+1296930723    689 10.210.102.136 TCP_MISS/200 1145 POST http://vip.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?Version=1&Action=open&Server=NS&IP=none ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930723    681 10.210.102.136 TCP_MISS/200 1029 GET http://by2msg3020311.by2.gateway.edge.messenger.live.com/xmlProxy.htm?vn=9.090515.0&domain=live.com ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html
+1296930724    649 10.210.102.136 TCP_MISS/200 1165 POST http://by2msg3020311.by2.gateway.edge.messenger.live.com/gateway/gateway.dll?SessionID=1148805902.564487117 ggcsad%5Csswilliams DEFAULT_PARENT/content_filter text/html

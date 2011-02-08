@@ -34,7 +34,8 @@ module NFAgent
     end
 
     def write_to_disk(directory)
-      File.open(File.join(directory, "#{self.checksum}-#{self.attempt}"), "w") do |file|
+      filename = [ self.checksum, self.attempt, self.key ].compact.join("-")
+      File.open(File.join(directory, filename), "w") do |file|
         file << self.data
       end
     end
@@ -50,14 +51,14 @@ module NFAgent
       filename && File.exists?(lockfile)
     end
 
-    def self.read_from_file(filename)
+    def self.read_from_file(filename, dir = Config.dump_dir)
       # Ensure the file is only relative
       filename = File.basename(filename)
       self.new do |payload|
         payload.filename = filename
-        payload.checksum, payload.attempt = filename.split("-")
+        payload.checksum, payload.attempt, payload.key = filename.split("-")
         payload.data = ""
-        ref = File.join(Config.dump_dir, filename)
+        ref = File.join(dir, filename)
         File.open(ref, "r") do |file|
           payload.data << file.read
         end
@@ -70,7 +71,8 @@ module NFAgent
 
     def try_again_later
       # TODO: Move the file to a new name with a later timetamp
-      FileUtils.mv(File.join(Config.dump_dir, self.filename), File.join(Config.dump_dir, "#{self.checksum}-#{self.attempt}"))
+      new_filename = [ self.checksum, self.attempt, self.key ].compact.join("-")
+      FileUtils.mv(File.join(Config.dump_dir, self.filename), File.join(Config.dump_dir, new_filename))
     end
 
     private

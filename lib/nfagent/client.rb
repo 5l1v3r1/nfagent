@@ -8,6 +8,7 @@ module NFAgent
       proxy_class.start(SERVICE_HOST, 80) do |http|
         http.read_timeout = 120 # 2 minutes TODO: Make this a config option with 120 as default
         req = Net::HTTP::Post.new("/#{end_point}")
+        p({"key" => Config.client_key}.merge(data_hash).delete('data'))
         req.set_form_data({"key" => Config.client_key}.merge(data_hash))
         ClientResponse.new do |resp|
           resp.response, resp.message = http.request(req)

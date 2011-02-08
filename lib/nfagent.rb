@@ -36,5 +36,5 @@ require 'nfagent/cli'
 require 'nfagent/tests'
 
 module NFAgent
-  VERSION = '0.9.27'
+  VERSION = '0.9.28'
 end

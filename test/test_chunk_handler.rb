@@ -41,11 +41,11 @@ class TestChunkHandler < ActiveSupport::TestCase
     assert_equal 1, chunk_handler.chunk_group['jetson'].size
   end
 
-  test "reset chunk after expiry" do
+  test "reset chunk after expiry in multi mode" do
     NFAgent::Config.parse = 'locally'
     NFAgent::Config.mode = 'multi'
     NFAgent::Config.mapper = 'MyMapper'
-    EM.expects(:defer).times(2)
+    NFAgent::Chunk.any_instance.expects(:submit).at_least_once
     chunk_handler = NFAgent::ChunkHandler.new
     chunk_handler.append(@logline)
     Timecop.travel(30) do
@@ -67,7 +67,7 @@ class TestChunkHandler < ActiveSupport::TestCase
     end
   end
 
-  test "reset chunk after full wuth check_full_or_expired" do
+  test "reset chunk after full with check_full_or_expired in multi mode" do
     NFAgent::Config.parse = 'locally'
     NFAgent::Config.mode = 'multi'
     NFAgent::Config.mapper = 'MyMapper'
@@ -91,4 +91,28 @@ class TestChunkHandler < ActiveSupport::TestCase
     chunk_handler.append("") # Invalid logline
     assert chunk_handler.chunk_group['all'].nil?
   end
+
+  test "reset chunk is passed appropriate key in multi mode" do
+    NFAgent::Config.parse = 'locally'
+    NFAgent::Config.mode = 'multi'
+    NFAgent::Config.mapper = 'MyMapper'
+    NFAgent::Chunk.any_instance.expects(:submit).with('acme')
+    chunk_handler = NFAgent::ChunkHandler.new
+    chunk_handler.append(@logline)
+    Timecop.travel(61) do
+      chunk_handler.check_full_or_expired
+    end
+  end
+
+  test "reset chunk is passed nil key in normal mode" do
+    NFAgent::Config.parse = 'remotely'
+    NFAgent::Config.mode = 'normal'
+    NFAgent::Chunk.any_instance.expects(:submit).with(nil)
+    chunk_handler = NFAgent::ChunkHandler.new
+    chunk_handler.append(@logline)
+    Timecop.travel(61) do
+      chunk_handler.check_full_or_expired
+    end
+  end
+
 end
