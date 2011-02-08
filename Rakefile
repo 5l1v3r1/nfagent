@@ -15,7 +15,7 @@ $hoe = Hoe.spec 'nfagent' do
   self.post_install_message = 'PostInstall.txt' # TODO remove if post-install message not required
   self.rubyforge_name       = self.name # TODO this is default value
   self.extra_deps         = [
-    ['svutil','>= 0.1.2'], ['eventmachine', '>= 0.12.8'], ['squiggle', '>= 0.0.7']
+    ['svutil','>= 0.1.2'], ['eventmachine', '>= 0.12.8'], ['squiggle', '>= 0.0.8']
   ]
 
 end
