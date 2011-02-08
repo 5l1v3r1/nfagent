@@ -45,7 +45,7 @@ class TestChunkHandler < ActiveSupport::TestCase
     NFAgent::Config.parse = 'locally'
     NFAgent::Config.mode = 'multi'
     NFAgent::Config.mapper = 'MyMapper'
-    NFAgent::Submitter.any_instance.expects(:perform).times(2)
+    EM.expects(:defer).times(2)
     chunk_handler = NFAgent::ChunkHandler.new
     chunk_handler.append(@logline)
     Timecop.travel(30) do
@@ -71,7 +71,7 @@ class TestChunkHandler < ActiveSupport::TestCase
     NFAgent::Config.parse = 'locally'
     NFAgent::Config.mode = 'multi'
     NFAgent::Config.mapper = 'MyMapper'
-    NFAgent::Submitter.any_instance.expects(:perform).times(2)
+    EM.expects(:defer).times(2)
     chunk_handler = NFAgent::ChunkHandler.new(:chunk_size => 10)
     9.times { chunk_handler.append(@logline) }
     9.times { chunk_handler.append(@logline2) }

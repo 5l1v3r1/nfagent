@@ -11,11 +11,13 @@ module NFAgent
         req.set_form_data({"key" => Config.client_key}.merge(data_hash))
         ClientResponse.new do |resp|
           resp.response, resp.message = http.request(req)
+          Log.info("Client Returned with '#{resp.message}'")
         end
       end
     rescue Exception => e
       # Trap Exception class here to ensure we catch Timeout
       ClientResponse.new do |resp|
+        Log.info("Client Error: #{$!}")
         resp.message = $!
       end
     end

@@ -15,6 +15,7 @@ module NFAgent
         response = Client.post(:collector, @payload.to_hash)
         if response.ok?
           succeed(@payload)
+          Log.info("Submitted #{@payload.line_count} lines")
         else
           Log.error "Submission Failed: #{response.message}"
           fail(@payload)

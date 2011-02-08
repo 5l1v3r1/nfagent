@@ -13,7 +13,7 @@ module NFAgent
       if data && data.length > 10
         @handler.append(data)
       end
-      send_data('OK')
+      #send_data('OK')
     end
 
     def unbind

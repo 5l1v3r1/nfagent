@@ -56,7 +56,7 @@ class TestChunk < ActiveSupport::TestCase
   end
 
   test "submit" do
-    NFAgent::Submitter.any_instance.expects(:perform)
+    EM.expects(:defer)
     chunk = NFAgent::Chunk.new
     chunk.submit
   end

@@ -39,6 +39,7 @@ module NFAgent
         chunk = @chunk_group.fetch!(key, Chunk.new(@chunk_size))
         chunk << line
       rescue ChunkExpired, ChunkFull
+        Log.info("Chunk full or expired, cannot add lines")
         reset_chunk(key)
       end
     end

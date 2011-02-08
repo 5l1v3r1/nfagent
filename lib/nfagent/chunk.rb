@@ -34,7 +34,7 @@ module NFAgent
 
     def dump(key = nil)
       Payload.new do |payload|
-        Log.info("Dumping payload from chunk (#{self.size} lines)")
+        Log.info("Dumping payload from chunk (#{self.size || 0} lines #{'due to expiry' if expired?}")
         payload.line_count = self.size
         payload.chunk_expired = expired?
         payload.key = key
@@ -44,11 +44,15 @@ module NFAgent
     end
 
     def submit(key = nil)
-      submitter = Submitter.new(self.dump(key))
-      submitter.errback { |payload|
-        payload.write_to_disk(Config.dump_dir)
+      Log.info("Submitting...")
+      # TODO God knows why EM Deferrable isn't working - defer here is OK
+      EM.defer {
+        submitter = Submitter.new(self.dump(key))
+        submitter.errback { |payload|
+          payload.write_to_disk(Config.dump_dir)
+        }
+        submitter.perform
       }
-      submitter.perform
       # Callback and remove from chunk group
     end
   end
