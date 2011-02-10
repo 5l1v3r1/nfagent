@@ -1,4 +1,7 @@
 module NFAgent
+  class LookUpError < StandardError; end
+  class IgnoreLine < StandardError; end
+
   class ChunkHandler
 
     attr_accessor :chunk_group
@@ -24,9 +27,13 @@ module NFAgent
         parsed = @parser.parse(line)
         return if parsed.invalid?
         if Config.mode == 'multi'
-          key = MapperProxy.find_account_id(parsed.username, parsed.client_ip)
-          # TODO: Still appending line as string until Server API has been updated
-          return append2(line, key)
+          begin
+            key = MapperProxy.find_account_id(parsed.username, parsed.client_ip)
+            # TODO: Still appending line as string until Server API has been updated
+            return append2(line, key)
+          rescue LookUpError, IgnoreLine
+            return # Do nothing
+          end
         end
       end
       # TODO: rename append2

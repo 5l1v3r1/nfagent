@@ -12,6 +12,7 @@ class MyMapper
   end
 
   def find_account_id(username, client_ip)
+    raise NFAgent::IgnoreLine if username == 'andrew'
     @hash[username]
   end
 end

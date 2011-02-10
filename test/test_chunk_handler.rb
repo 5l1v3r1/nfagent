@@ -9,6 +9,7 @@ class TestChunkHandler < ActiveSupport::TestCase
     NFAgent::Plugin.load_plugins
     @logline = "1253604221  19 127.0.0.1 TCP_MISS/200 562 GET http://www.gravatar.com/blavatar/e81cfb9068d04d1cfd598533bb380e1f?s=16&d=http://s.wordpress.com/favicon.ico dan NONE/- text/html"
     @logline2 = "1253604221  19 127.0.0.1 TCP_MISS/200 562 GET http://www.gravatar.com/blavatar/e81cfb9068d04d1cfd598533bb380e1f?s=16&d=http://s.wordpress.com/favicon.ico paul NONE/- text/html"
+    @ignored_logline = "1253604221  19 127.0.0.1 TCP_MISS/200 562 GET http://www.gravatar.com/blavatar/e81cfb9068d04d1cfd598533bb380e1f?s=16&d=http://s.wordpress.com/favicon.ico andrew NONE/- text/html"
   end
 
   test "append line" do
@@ -39,6 +40,18 @@ class TestChunkHandler < ActiveSupport::TestCase
     assert chunk_handler.chunk_group.has_key?('jetson')
     assert_equal 1, chunk_handler.chunk_group['acme'].size
     assert_equal 1, chunk_handler.chunk_group['jetson'].size
+  end
+
+  test "mapper raises ignore line in multi mode" do
+    NFAgent::Config.parse = 'locally'
+    NFAgent::Config.mode = 'multi'
+    NFAgent::Config.mapper = 'MyMapper'
+    chunk_handler = NFAgent::ChunkHandler.new
+    chunk_handler.append(@ignored_logline)
+    assert !chunk_handler.chunk_group.has_key?('acme')
+    assert !chunk_handler.chunk_group.has_key?('jetson')
+    assert chunk_handler.chunk_group['acme'].blank?
+    assert chunk_handler.chunk_group['jetson'].blank?
   end
 
   test "reset chunk after expiry in multi mode" do
