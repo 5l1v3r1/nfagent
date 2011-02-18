@@ -1,0 +1,8 @@
+client_key = FNX3tyOkG6J7nk2uC3QX
+dump_dir = sandbox/dumps
+log_file = sandbox/debug
+pid_file = sandbox/nfagent.pid
+parse = locally
+mode = multi
+mapper = MyMapper
+plugin_directory = /tmp/plugins/
