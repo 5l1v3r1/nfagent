@@ -4,7 +4,7 @@ module NFAgent
       def instance
         return @instance if @instance
         raise "No Mapper Set" if Config.mapper.blank?
-        @instance = Config.mapper.constantize.new
+        @instance = Object.const_get(Config.mapper).new
       end
 
       # TODO: Can we delegate?

@@ -1,0 +1,3 @@
+* Multi mode won't work for failed chunks
+* Mapper can only map to "key"
+* 

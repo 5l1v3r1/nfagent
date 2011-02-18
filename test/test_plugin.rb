@@ -6,8 +6,8 @@ class TestPlugin < ActiveSupport::TestCase
   end
 
   test "load" do
-    assert_raise(NameError) { "MissingMapper".constantize }
+    assert_raise(NameError) { Object.const_get("MissingMapper") }
     NFAgent::Plugin.load_plugins
-    "MyMapper".constantize
+    Object.const_get("MyMapper")
   end
 end

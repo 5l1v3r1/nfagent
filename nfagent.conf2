@@ -5,4 +5,4 @@ pid_file = sandbox/nfagent.pid
 parse = locally
 mode = multi
 mapper = MyMapper
-plugin_directory = /tmp/plugins/
+plugin_directory = test/plugins/
