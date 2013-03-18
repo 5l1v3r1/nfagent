@@ -74,6 +74,6 @@ class TestChunk < ActiveSupport::TestCase
   end
 
   test "dump from LogLine" do
-    flunk
+    pending
   end
 end
