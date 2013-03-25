@@ -1,6 +1,7 @@
 module NFAgent
   class Client
-    SERVICE_HOST = "collector.service.netfox.com"
+    # TODO: Make this a config option
+    SERVICE_HOST = "sandbox.netfox.com"
 
     def self.post(end_point, data_hash)
       proxy_class = Net::HTTP::Proxy(Config.http_proxy_host, Config.http_proxy_port, Config.http_proxy_user, Config.http_proxy_password)
@@ -12,7 +13,9 @@ module NFAgent
         req.set_form_data({"key" => Config.client_key}.merge(data_hash))
         ClientResponse.new do |resp|
           resp.response, resp.message = http.request(req)
-          Log.info("Client Returned with '#{resp.message}'")
+          if !resp.ok?
+            Log.info("Client Returned with code (#{resp.response.code}, #{resp.response.msg}) and message '#{resp.message}'")
+          end
         end
       end
     rescue Exception => e

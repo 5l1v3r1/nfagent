@@ -9,7 +9,7 @@ module NFAgent
         Tests.run
         exit 1
       end
-      @process = ProcessManager.new(Server)
+      @process = ProcessManager.new(Server, Config)
       @process.start
     end
   end
