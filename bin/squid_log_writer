@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'socket'
+require 'optparse'
 
 class Client
   def initialize(host, port)
@@ -34,7 +35,25 @@ class Client
     end
 end
 
-client = Client.new("127.0.0.1", "10000")
+
+options = {
+  port: 10110,
+  host: '127.0.0.1'
+}
+OptionParser.new do |opts|
+  opts.banner = "Usage: squid_log_writer [options]"
+
+  opts.on("-p", "--port", "Submit logs to agent running on port [port]") do |port|
+    options[:port] = port
+  end
+
+  opts.on("-H", "--host", "Submit logs to agent running on host [host]") do |host|
+    options[:host] = host
+  end
+end.parse!
+
+
+client = Client.new(options[:host], options[:port])
 
 while !$stdin.eof?
   line = $stdin.readline

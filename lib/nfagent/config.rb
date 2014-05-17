@@ -16,12 +16,15 @@ module NFAgent
     # mapping: Class, this is a plugin class which must be stored in a file in the directory /etc/nfagent/plugins/
     # parse: (optional, default: 'remotely'): String, either 'remotely' or 'locally'
     #
-    defaults do |c|
-      c.mode = 'normal'
-      c.parse = 'remotely'
-      c.chunk_timeout = 60
-      c.time_zone = 'UTC'
-      c.plugin_directory = '/etc/nfagent/plugins/'
+    defaults do |config|
+      config.mode             = 'normal'
+      config.parse            = 'remotely'
+      config.chunk_timeout    = 60
+      config.time_zone        = 'UTC'
+      config.plugin_directory = '/etc/nfagent/plugins/'
+      config.service_host     = 'collector.beta.netfox.com'
+      config.service_port     = 80
+      config.agent_port       = 10110
     end
 
     class << self

@@ -1,7 +1,8 @@
 module NFAgent
   class Server
     def run
-      Log.info("Starting up")
+      Log.info("Starting up: Listening on port #{Config.agent_port}")
+      Log.info("Data will be submitted to #{Config.service_host}:#{Config.service_port}")
       NFAgent::Plugin.load_plugins
 
       Log.info("Parsing #{Config.parse}")
@@ -11,7 +12,7 @@ module NFAgent
       poller = Poller.new
 
       EM.run {
-        EM.start_server "0.0.0.0", 10000, Event, chunk_handler, poller
+        EM.start_server "0.0.0.0", Config.agent_port, Event, chunk_handler, poller
         EM::PeriodicTimer.new(5) do
           chunk_handler.check_full_or_expired
         end

@@ -1,12 +1,10 @@
 module NFAgent
   class Client
-    # TODO: Make this a config option
-    SERVICE_HOST = "sandbox.netfox.com"
-
     def self.post(end_point, data_hash)
+      Log.info("Submitting to #{Config.service_host} on port #{Config.service_port}")
       proxy_class = Net::HTTP::Proxy(Config.http_proxy_host, Config.http_proxy_port, Config.http_proxy_user, Config.http_proxy_password)
       # TODO: Enable SSL
-      proxy_class.start(SERVICE_HOST, 80) do |http|
+      proxy_class.start(Config.service_host, Config.service_port) do |http|
         http.read_timeout = 120 # 2 minutes TODO: Make this a config option with 120 as default
         req = Net::HTTP::Post.new("/#{end_point}")
         p({"key" => Config.client_key}.merge(data_hash).delete('data'))

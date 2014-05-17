@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'lib/nfagent'
+require './lib/nfagent'
 NFAgent::CLI.new
